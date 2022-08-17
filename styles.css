@@ -36,6 +36,12 @@ header {
   z-index: -1;
 }
 
+h1 {
+  align-self: flex-start;
+  transform: translateZ(-7px) scale(1.7);  
+  margin: 0px;
+}
+
 .title {
   font-size: 7rem;
   color: white;
@@ -43,8 +49,10 @@ header {
 }
 
 section {
+  position: absolute;
   font-size: 2rem;
   padding: 2rem;
   background-color: rgb(11, 57, 84);
   color: white;
+  transform: translateZ(-7px) scale(1.7);  
 }
